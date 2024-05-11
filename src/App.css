@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.App{
+  background-color: rgba(255, 255, 255, 0.457);
+  height: auto;
+  background-size: cover;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar container */
+.navbar {
+  background-color: #17a2b8; /* Set background color */
+  padding: 10px 20px; /* Add padding */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Navbar brand link */
+.navbar-brand {
+  color: #fff; /* Set text color */
+  font-size: 1.5em; /* Set font size */
+  font-weight: bold; /* Set font weight */
+  text-decoration: none; /* Remove underline */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Navbar links */
+.navbar-nav .nav-item .nav-link {
+  color: #fff; /* Set text color */
+  font-size: 1.2em; /* Set font size */
+  font-weight: bold; /* Set font weight */
+  text-decoration: none; /* Remove underline */
+  padding: 0.5em 1em; /* Add padding */
+  transition: background-color 0.3s; /* Add transition effect */
 }
 
-.App-link {
-  color: #61dafb;
+/* Navbar links on hover */
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Change background color on hover */
+  border-radius: 5px; /* Add border radius on hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Navbar toggler icon */
+.navbar-toggler-icon {
+  color: #fff; /* Set color */
+}
+
+/* Navbar toggler button */
+.navbar-toggler {
+  border: none; /* Remove border */
+  background-color: transparent; /* Set background color */
+}
+
+/* Navbar toggler button on hover */
+.navbar-toggler:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Change background color on hover */
+  border-radius: 5px; /* Add border radius on hover */
 }
