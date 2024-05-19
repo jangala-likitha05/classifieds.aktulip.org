@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/classifieds.aktulip.org/static/css/main.d268c5e1.css",
-    "main.js": "/classifieds.aktulip.org/static/js/main.b7e58601.js",
+    "main.css": "/classifieds.aktulip.org/static/css/main.49194322.css",
+    "main.js": "/classifieds.aktulip.org/static/js/main.a02fb730.js",
     "static/js/453.1b6cbde4.chunk.js": "/classifieds.aktulip.org/static/js/453.1b6cbde4.chunk.js",
     "index.html": "/classifieds.aktulip.org/index.html",
-    "main.d268c5e1.css.map": "/classifieds.aktulip.org/static/css/main.d268c5e1.css.map",
-    "main.b7e58601.js.map": "/classifieds.aktulip.org/static/js/main.b7e58601.js.map",
+    "main.49194322.css.map": "/classifieds.aktulip.org/static/css/main.49194322.css.map",
+    "main.a02fb730.js.map": "/classifieds.aktulip.org/static/js/main.a02fb730.js.map",
     "453.1b6cbde4.chunk.js.map": "/classifieds.aktulip.org/static/js/453.1b6cbde4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d268c5e1.css",
-    "static/js/main.b7e58601.js"
+    "static/css/main.49194322.css",
+    "static/js/main.a02fb730.js"
   ]
 }
